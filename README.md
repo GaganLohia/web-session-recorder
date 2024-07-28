@@ -3,12 +3,12 @@
 A flexible session recording package for web applications, with optional Angular support. 
 
 ## Overview
-Web Session Recorder is a powerful and lightweight npm package designed to capture and record user sessions in web applications. It provides developers with valuable insights into user behavior, making it easier to debug issues, optimize user experience, and understand how users interact with your application.
+Web Session Recorder is a powerful and lightweight npm package designed to capture and record **on-demand** user sessions in web applications. It provides developers with valuable insights into user behavior, making it easier to debug issues, optimize user experience, and understand how users interact with your application.
 
 ## Features
- - Records User Screen: Capture the user's screen activity during their session.
- - Records All Logs: Log all console messages and other relevant information.
- - Records All Network Calls: Capture and log all network requests and responses.
+ - **Records User Screen:** Capture the user's screen activity during their session.
+ - **Records All Logs:** Log all console messages and other relevant information.
+ - **Records All Network Calls:** Capture and log all network requests and responses.
 
 
 ## Installation
@@ -25,9 +25,9 @@ yarn add web-session-recorder
 ## Usage in vanilla JavaScript/TypeScript project
 
 ```
-import { SessionRecorder } from 'session-recorder';
+import { WebSessionRecorder } from 'web-session-recorder';
 
-const recorder = new SessionRecorder();
+const recorder = new WebSessionRecorder();
 
 async function startRecording() {
   await recorder.start();
