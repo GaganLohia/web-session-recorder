@@ -1,41 +1,45 @@
 {
-    "name": "web-session-recorder",
-    "version": "1.0.0",
-    "description": "A flexible session recording package for web applications",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsc"
+  "name": "web-session-recorder",
+  "version": "1.0.0",
+  "description": "A flexible session recording package for web applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "session",
+    "recording",
+    "debug",
+    "logging"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gagan.github.com:GaganLohia/web-session-recorder.git"
+  },
+  "author": "Gagan Lohia",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/common": "^12.0.0",
+    "@angular/core": "^12.0.0",
+    "@types/node": "^16.11.12",
+    "rxjs": "^6.6.0",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "@angular/common": "^12.0.0",
+    "@angular/core": "^12.0.0",
+    "rxjs": "^6.6.0"
+  },
+  "peerDependenciesMeta": {
+    "@angular/common": {
+      "optional": true
     },
-    "keywords": [
-        "session",
-        "recording",
-        "debug",
-        "logging"
-    ],
-    "author": "Gagan Lohia",
-    "license": "MIT",
-    "devDependencies": {
-        "@angular/common": "^12.0.0",
-        "@angular/core": "^12.0.0",
-        "@types/node": "^16.11.12",
-        "rxjs": "^6.6.0",
-        "typescript": "^4.5.5"
+    "@angular/core": {
+      "optional": true
     },
-    "peerDependencies": {
-        "@angular/common": "^12.0.0",
-        "@angular/core": "^12.0.0",
-        "rxjs": "^6.6.0"
-    },
-    "peerDependenciesMeta": {
-        "@angular/common": {
-            "optional": true
-        },
-        "@angular/core": {
-            "optional": true
-        },
-        "rxjs": {
-            "optional": true
-        }
+    "rxjs": {
+      "optional": true
     }
+  }
 }
